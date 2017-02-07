@@ -1,0 +1,52 @@
+html, body{
+    background: url(background1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: black;
+    position: absolute;
+    max-width: 1800px;
+    /*opacity: 0.9;*/
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    color: white;
+    text-align: center;
+    font-family: "freight-sans-pro", freightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: .25em;
+}
+
+div{
+    display: block;
+}
+
+#top-left{
+    top: 3;
+    left: 5;
+    position: absolute;
+}
+
+#top-right{
+    top: 3;
+    right: 5;
+    position: absolute;
+    z-index: 1000;
+}
+
+#center{
+    top: 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-size: 30px;
+}
+
+#bottom-right{
+    bottom: 5;
+    right: 5;
+    position: absolute;
+    z-index: 1000;
+}
+
+#changeTemperature{
+    background-color: #585A69;
+}
