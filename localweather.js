@@ -58,7 +58,8 @@ function callWeather(latitude, longitude){
         //dataType:'json',
         //type: 'post',
         //data: yourForm.serialize(),
-        success:function(response){
+        success: function(response, status, jqXHR) {
+        //success:function(response){
              // ** If yout API returns something, you're going to proccess the data here.
              //var r = JSON.parse(response);
              console.log(response);
